@@ -1,38 +1,81 @@
-header{
-    display: flex;
-    justify-content: space-between;
-    align-items: center;
-    background-color: #333;
-    height: 80px;
-    padding: 0 20px;
-    color: #fff;
-    
+* {
+  box-sizing: border-box;
+  margin: 0;
+  padding: 0;
 }
-nav {
-    background-color: #333;
-    height: 50px;
-  }
-  
+
+header {
+  display: flex;
+  justify-content: space-between;
+  align-items: center;
+  background-color: #333;
+  height: 80px;
+  padding: 0 20px;
+}
+
+.logo h1 {
+  margin: 0;
+  font-size: 30px;
+  color: #fff;
+}
+
 nav ul {
-    margin: 0;
-    padding: 0;
-    list-style: none;
-    display: flex;
-  }
-  
+  margin: 0;
+  padding: 0;
+  list-style: none;
+  display: flex;
+}
+
 nav li {
-    margin-right: 20px;
-  }
-  
+  margin-right: 20px;
+}
+
 nav li:last-child {
-    margin-right: 0;
-  }
-  
+  margin-right: 0;
+}
+
 nav a {
-    display: block;
-    color: #fff;
-    text-decoration: none;
-    padding: 0 10px;
-    line-height: 50px;
-  }
-  
+  display: block;
+  color: #fff;
+  text-decoration: none;
+  padding: 0 10px;
+  line-height: 80px;
+}
+
+.hero {
+  background-color: #f1f1f1;
+  height: 400px;
+  display: flex;
+  justify-content: center;
+  align-items: center;
+}
+
+.hero-content {
+  text-align: center;
+}
+
+.hero h1 {
+  font-size: 48px;
+  margin-bottom: 20px;
+}
+
+.hero p {
+  font-size: 24px;
+  margin-bottom: 40px;
+}
+
+.buttons {
+  display: flex;
+  justify-content: center;
+}
+
+.btn {
+  display: inline-block;
+  background-color: #333;
+  color: #fff;
+  font-size: 20px;
+  text-decoration: none;
+  padding: 10px 20px;
+  margin-right: 20px;
+  border-radius: 5px
+}
